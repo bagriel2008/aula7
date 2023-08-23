@@ -1,0 +1,95 @@
+// resto da divisao 
+
+let a = 3
+let b = 5
+let c = 6
+let d = 7
+let e = 8
+
+console.log(a % 2)
+console.log(b % 2)
+console.log(c % 2)
+console.log(d % 2)
+console.log(e % 2) 
+
+// soma
+
+let minhaIdade = 24;
+console.log("antes", minhaIdade)
+minhaIdade = minhaIdade + 1;
+console.log("depois", minhaIdade)
+
+// Exercicio somar 
+
+let soma = 3;
+soma = soma + 4;
+console.log(soma);
+
+let mult = 3;
+mult = mult * 5;
+let resultado = mult / 2;
+console.log(resultado);
+
+let menos = 5;
+menos = menos - 4
+let resultadoo = menos * -1;
+console.log(resultadoo)
+
+let f = 234;
+console.log(f % 5);
+
+// igula: === | diferente: !== | maior e menor igual : > e >= | menor e maior igual:< <=    
+
+// Exercicio
+
+let numero1 = 2;
+let numero2 = 2;
+
+console.log(numero1 === numero2)
+
+console.log(numero1 !== numero2)
+
+console.log(numero1 > numero2)
+
+console.log(numero1 < numero2)
+
+// operador E:&& | operador OU:|| | operador NAO:!
+console.log("sssssssssssssssssssssssss")
+
+let g = true
+let h = false 
+let i = true
+
+console.log(g && h);
+console.log(h && i);
+console.log(g && i);
+console.log(g && h && i);
+
+console.log("sssssssssssssssssssssssss")
+
+console.log(g || h);
+console.log(h || i);
+console.log(g || i);
+console.log(g || h || i);
+
+console.log("xsssssssssssssssssssssssssss")
+
+let m = true;
+let n = false;
+
+console.log(m);
+console.log(!m);
+
+console.log(n)
+console.log(!n)
+
+// exercicio
+
+console.log("xasfsdfsdfsdfs")
+
+let nome = "Lais";
+let idade = 23;
+let maior = idade >= 18;
+let idade2050 = idade + 29
+
+console.log("nome:", nome, "idade", idade, "maior de idade:", maior, "em 2050 tem", idade2050, "anos");
